@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients(basePackages= {"cn.edu.microservicecloudapi.service"})
-//@ComponentScan("cn.edu.microservicecloudconsumerdeptfeign")
+//@ComponentScan("cn.edu.microservicecloudapi")
 public class MicroservicecloudConsumerDeptFeignApplication {
 
 	public static void main(String[] args) {

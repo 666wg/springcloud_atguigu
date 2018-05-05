@@ -16,7 +16,7 @@ public class DeptController_Consumer
 	//说明：在添加注解@EnableFeignClients(basePackages= {"cn.edu.microservicecloudapi.service"})，否则@Autowired注入失败，
 	//basePackages 为 DeptClientService类 所在的包，
 	@Autowired
-	private DeptClientService service; //说明：在
+	private DeptClientService service;
 
 	@RequestMapping(value = "/consumer/dept/get/{id}")
 	public Dept get(@PathVariable("id") Long id)
